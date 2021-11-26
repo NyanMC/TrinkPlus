@@ -1,2 +1,3 @@
 # TrinkPlus
-Addon to Trinkets and Baubles that also somewhat serves as an example of how to make trinkets addons.
+mod for trinket addons and possibly more?
+Feel free to reference the TrinkPlus source while making your own trinkets addons

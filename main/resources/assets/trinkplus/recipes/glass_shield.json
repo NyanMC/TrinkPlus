@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "III",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "trinkplus:ender_ingot"
+        },
+        "I": {
+            "item": "minecraft:glass"
+        }
+    },
+    "result": {
+        "item": "trinkplus:glass_shield"
+    }
+}

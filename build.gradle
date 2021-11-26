@@ -1,0 +1,122 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            name = "forge"
+            //url = "http://files.minecraftforge.net/maven"
+			url = 'https://maven.minecraftforge.net'
+        }
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
+    }
+}
+
+apply plugin: 'net.minecraftforge.gradle.forge'
+
+//Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
+
+sourceCompatibility = targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
+compileJava {
+    sourceCompatibility = targetCompatibility = '1.8'
+}
+
+ext.configFile = file('build.properties')
+ext.config = parseConfig(configFile)
+
+version = "${config.version}.${config.build_number}"
+group = "xzeroair.xat" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = config.mod_name
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.4' 
+}
+
+minecraft {
+    version = "${config.mc_version}-${config.forge_version}"
+    runDir = "eclipse/assets"
+
+    mappings = config.mc_mappings
+    replace 'GRADLE:BUILD', config.build_number
+    replace 'GRADLE:VERSION', config.version
+
+    // Scala: not even once
+    replace 'scala.actors.threadpool.Arrays', 'java.util.Arrays'
+
+    makeObfSourceJar = false
+}
+
+jar {
+    exclude "**/*.bat"
+    exclude "**/*.psd"
+    exclude "**/*.exe"
+    exclude "**/unused"
+	exclude "**/gitignored"
+}
+
+dependencies {
+	
+	compile fileTree(dir: 'lib', include: '*.jar')
+	
+}
+
+processResources {
+    // this will ensure that this task is redone when the versions change.
+    //inputs.property "version", project.version
+    //inputs.property "mcversion", project.minecraft.version
+
+    // replace stuff in mcmod.info, nothing else
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+                
+        // replace version and mcversion
+        expand 'version':project.version, 'mcversion':project.minecraft.version
+    }
+        
+    // copy everything else, thats not the mcmod.info
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'mcmod.info', '**/psd/**'
+    }
+}
+
+repositories {
+	maven { //MinecraftForge
+		name "MinecraftForge Maven"
+		url = 'https://maven.minecraftforge.net'
+		//url "http://files.minecraftforge.net/maven/"
+	}
+    maven {
+        name 'Chisel'
+        url "http://maven.tterrag.com/"
+    }
+	maven {
+		// location of the maven that hosts JEI files
+		name = "Progwml6 maven"
+		url = "http://dvs1.progwml6.com/files/maven"
+	}
+	maven {
+		// location of a maven mirror for JEI files, as a fallback
+		name = "ModMaven"
+		url = "modmaven.k-4u.nl"
+	}
+    maven {
+		name 'Baubles'
+        url = 'https://jitpack.io'
+    }
+    maven {
+        name = "CurseForge"
+        url = "https://minecraft.curseforge.com/api/maven/"
+    }
+	maven {
+        name = "sonatype"
+        url = "https://oss.sonatype.org/content/repositories/snapshots/"
+	}
+}
+
+def parseConfig(File config) {
+    config.withReader {
+        def prop = new Properties()
+        prop.load(it)
+        return (new ConfigSlurper().parse(prop))
+    }
+}

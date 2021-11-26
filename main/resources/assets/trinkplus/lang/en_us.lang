@@ -1,0 +1,11 @@
+item.ender_ingot.name=Ender Ingot
+item.golden_heart.0.name=Golden Heart
+item.glass_shield.0.name=Glass Shield
+item.dispel_gel.0.name=Dispel Gel
+
+item.golden_heart.0.tooltip1=#gold:Grants the absorption effect
+item.golden_heart.0.tooltip2=#white:Effect regenerates when about to run out
+item.glass_shield.0.tooltip1=#gold:Ignores damage of one attack, then shatters
+item.glass_shield.0.tooltip2=#white:Regenerates after a cooldown period
+item.dispel_gel.0.tooltip1=#green:Decreases the amount of magic damage you receive
+item.dispel_gel.0.tooltip2=#red:Decreases the amount of magic damage you deal to others

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#I#",
+        "IDI",
+        "#I#"
+    ],
+    "key": {
+        "#": {
+            "item": "xat:glowing_ingot"
+        },
+        "I": {
+            "item": "minecraft:gold_ingot"
+        },
+        "D": {
+            "item": "xat:glowing_gem"
+        }
+    },
+    "result": {
+        "item": "trinkplus:golden_heart"
+    }
+}

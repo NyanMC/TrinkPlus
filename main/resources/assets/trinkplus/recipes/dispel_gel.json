@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#G#",
+        "I#I",
+        "#G#"
+    ],
+    "key": {
+        "I": {
+            "item": "trinkplus:ender_ingot"
+        },
+        "#": {
+            "item": "minecraft:slime"
+        },
+		"G": {
+            "item": "xat:glowing_ingot"
+        }
+    },
+    "result": {
+        "item": "trinkplus:dispel_gel"
+    }
+}

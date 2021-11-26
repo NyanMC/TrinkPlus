@@ -1,0 +1,16 @@
+[
+{
+  "modid": "trinkplus",
+  "name": "TrinkPlus",
+  "description": "A few additions to Trinkets and Baubles which XzeroAir denied me from putting in the base mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["NyanMinecrafter"],
+  "credits": "XzeroAir (helped me through everything no matter how ridiculous)",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

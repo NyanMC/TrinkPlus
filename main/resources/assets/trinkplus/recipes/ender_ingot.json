@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#I#",
+        "IDI",
+        "#I#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:chorus_fruit_popped"
+        },
+        "I": {
+            "item": "minecraft:ender_eye"
+        },
+        "D": {
+            "item": "xat:glowing_ingot"
+        }
+    },
+    "result": {
+        "item": "trinkplus:ender_ingot"
+    }
+}

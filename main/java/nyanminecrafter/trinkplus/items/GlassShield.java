@@ -48,7 +48,7 @@ public class GlassShield extends AccessoryBase implements IsModelLoaded {
 	public void eventPlayerTick(ItemStack stack, EntityPlayer player) {
 		super.eventPlayerTick(stack, player);
 		if(!player.world.isRemote) {
-		final TrinketProperties prop = TrinketHelper.getTrinketItemHandler(stack);
+		final TrinketProperties prop = xzeroair.trinkets.capabilities.Capabilities.getTrinketProperties(stack);
         	if (prop != null) {
         		final TickHandler ticker = prop.getCounter("cooldown", false);
         		if ((ticker != null && ticker.Tick())) {
@@ -67,7 +67,7 @@ public class GlassShield extends AccessoryBase implements IsModelLoaded {
 		if (event.getSource().canHarmInCreative()) {
 			return;
 		}
-		final TrinketProperties prop = TrinketHelper.getTrinketItemHandler(stack);
+		final TrinketProperties prop = xzeroair.trinkets.capabilities.Capabilities.getTrinketProperties(stack);
         if (prop != null) {
             final TickHandler ticker = prop.getCounter("cooldown", false);
             if ((ticker == null)) {

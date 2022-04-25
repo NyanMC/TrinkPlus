@@ -1,4 +1,5 @@
 item.ender_ingot.name=Ender Ingot
+item.magic_garlic_bread.name=Magic Garlic Bread
 item.golden_heart.0.name=Golden Heart
 item.glass_shield.0.name=Glass Shield
 item.dispel_gel.0.name=Dispel Gel
@@ -9,3 +10,9 @@ item.glass_shield.0.tooltip1=#gold:Ignores damage of one attack, then shatters
 item.glass_shield.0.tooltip2=#white:Regenerates after a cooldown period
 item.dispel_gel.0.tooltip1=#green:Decreases the amount of magic damage you receive
 item.dispel_gel.0.tooltip2=#red:Decreases the amount of magic damage you deal to others
+
+potion.effect.xat.manaregen=Potion of Mana Regeneration
+splash_potion.effect.xat.manaregen=Splash Potion of Mana Regeneration
+lingering_potion.effect.xat.manaregen=Lingering Potion of Mana Regeneration
+tipped_arrow.effect.xat.manaregen=Tipped Arrow of Mana Regeneration
+trinkplus.effect.manaregen=Mana Regen

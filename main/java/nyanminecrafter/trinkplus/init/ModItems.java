@@ -5,7 +5,9 @@ import java.util.List;
 
 import net.minecraft.item.Item;
 import nyanminecrafter.trinkplus.items.DispelGel;
+import nyanminecrafter.trinkplus.items.EnderGem;
 import nyanminecrafter.trinkplus.items.EnderIngot;
+import nyanminecrafter.trinkplus.items.EnderPowder;
 import nyanminecrafter.trinkplus.items.GlassShield;
 import nyanminecrafter.trinkplus.items.GoldenHeart;
 import nyanminecrafter.trinkplus.items.baubles.BaubleDispelGel;
@@ -19,6 +21,9 @@ public class ModItems {
 	public static final List<Item> TRINKETS_ITEMS = new ArrayList<>();
 	
 	public static final Item enderingot = new EnderIngot("ender_ingot");
+	public static final Item enderpowder = new EnderPowder("ender_powder");
+	public static final Item endergem = new EnderGem("ender_gem");
+	
 	public static final Item magicgarlicbread = new MagicGarlicBread("magic_garlic_bread");
 	
 	public static final Item goldenheart = new GoldenHeart("golden_heart");

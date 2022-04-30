@@ -1,19 +1,19 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#G#",
+        "IGI",
         "I#I",
-        "#G#"
+        "IGI"
     ],
     "key": {
         "I": {
             "item": "trinkplus:ender_ingot"
         },
-        "#": {
-            "item": "minecraft:slime"
+        "G": {
+            "item": "trinkplus:ender_gem"
         },
-		"G": {
-            "item": "xat:glowing_ingot"
+		"#": {
+            "item": "xat:mana_reagent"
         }
     },
     "result": {

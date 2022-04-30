@@ -6,9 +6,13 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import nyanminecrafter.trinkplus.init.ModItems;
 import nyanminecrafter.trinkplus.items.GlassShield;
+import nyanminecrafter.trinkplus.util.config.ModConfig;
+import nyanminecrafter.trinkplus.util.config.ModConfig.xServer.GlassShieldSettings;
 import xzeroair.trinkets.util.compat.baubles.BaubleHelper;
 
 public class BaubleGlassShield extends GlassShield implements IBauble {
+	
+	private GlassShieldSettings config = ModConfig.SERVER.SHIELD;
 
 	public BaubleGlassShield(String name) {
 		super(name);
@@ -18,7 +22,7 @@ public class BaubleGlassShield extends GlassShield implements IBauble {
 	@Override
 	public baubles.api.BaubleType getBaubleType(ItemStack itemstack) {
 		// TODO Auto-generated method stub
-		return BaubleHelper.getBaubleType("body");
+		return BaubleHelper.getBaubleType(config.compat.baubles.bauble_type);
 	}
 
 	@Override

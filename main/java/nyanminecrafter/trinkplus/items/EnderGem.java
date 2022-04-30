@@ -7,9 +7,9 @@ import nyanminecrafter.trinkplus.TrinkPlus;
 import nyanminecrafter.trinkplus.init.ModItems;
 import nyanminecrafter.trinkplus.util.interfaces.IsModelLoaded;
 
-public class EnderIngot extends Item implements IsModelLoaded {
+public class EnderGem extends Item implements IsModelLoaded {
 	
-	public EnderIngot(String name) {
+	public EnderGem(String name) {
 		this.setTranslationKey(name);
 		this.setRegistryName(name);
 		ModItems.ITEMS.add(this);
@@ -25,4 +25,5 @@ public class EnderIngot extends Item implements IsModelLoaded {
 		// TODO Auto-generated method stub
 		return EnumRarity.EPIC;
 	}
+
 }

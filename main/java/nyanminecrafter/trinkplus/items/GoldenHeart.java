@@ -1,5 +1,6 @@
 package nyanminecrafter.trinkplus.items;
 
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.MobEffects;
 import net.minecraft.item.ItemStack;
@@ -32,8 +33,17 @@ public class GoldenHeart extends AccessoryBase implements IsModelLoaded {
 	}
 	
 	@Override
+	public void playerEquipped(ItemStack stack, EntityLivingBase entity) {
+		super.playerEquipped(stack, entity);
+		if(!entity.isPotionActive(MobEffects.ABSORPTION)) {
+			entity.addPotionEffect(new PotionEffect(MobEffects.ABSORPTION, config.recharge, config.potency, false, false));
+		}
+	}
+	
+	@Override
 	public void eventPlayerTick(ItemStack stack, EntityPlayer player) {
 		super.eventPlayerTick(stack, player);
+		// TODO make this code better
 		if(player.ticksExisted%config.recharge==0) {
 			player.addPotionEffect(new PotionEffect(MobEffects.ABSORPTION, config.recharge, config.potency, false, false));
 //			System.out.println("TRINKPLUS DEBUG: Attempting to reapply player absorption");

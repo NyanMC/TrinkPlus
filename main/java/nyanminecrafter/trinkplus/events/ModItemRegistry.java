@@ -23,6 +23,8 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import nyanminecrafter.trinkplus.Reference;
 import nyanminecrafter.trinkplus.init.ModItems;
 import nyanminecrafter.trinkplus.items.GoldenHeart;
+import nyanminecrafter.trinkplus.util.config.ModConfig;
+import nyanminecrafter.trinkplus.util.config.ModConfig.xServer;
 import nyanminecrafter.trinkplus.util.interfaces.IsModelLoaded;
 import nyanminecrafter.trinkplus.items.base.BasePotion;
 import xzeroair.trinkets.init.ModPotionTypes;
@@ -31,6 +33,8 @@ import xzeroair.trinkets.util.TrinketsConfig;
 
 @EventBusSubscriber
 public class ModItemRegistry {
+	
+	private static xServer config = ModConfig.SERVER;
 	
 	public static PotionObject myPotion;
 
@@ -42,7 +46,7 @@ public class ModItemRegistry {
 	@SubscribeEvent
 	public static void onItemRegister(RegistryEvent.Register<Item> event) {
 		event.getRegistry().registerAll(ModItems.ITEMS.toArray(new Item[0]));
-		if (Loader.isModLoaded("baubles")) {
+		if (Loader.isModLoaded("baubles") && config.baublesCompat) {
 			event.getRegistry().registerAll(ModItems.Baubles.BAUBLES_ITEMS.toArray(new Item[0]));
 		} else {
 			event.getRegistry().registerAll(ModItems.TRINKETS_ITEMS.toArray(new Item[0]));
@@ -69,7 +73,7 @@ public class ModItemRegistry {
 				((IsModelLoaded) item).registerModels();
 			}
 		}
-		if (Loader.isModLoaded("baubles")) {
+		if (Loader.isModLoaded("baubles") && config.baublesCompat) {
 			for (final Item item : ModItems.Baubles.BAUBLES_ITEMS) {
 				if (item instanceof IsModelLoaded) {
 					((IsModelLoaded) item).registerModels();

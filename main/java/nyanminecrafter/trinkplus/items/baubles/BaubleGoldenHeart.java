@@ -7,9 +7,13 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import nyanminecrafter.trinkplus.init.ModItems;
 import nyanminecrafter.trinkplus.items.GoldenHeart;
+import nyanminecrafter.trinkplus.util.config.ModConfig;
+import nyanminecrafter.trinkplus.util.config.ModConfig.xServer.GoldenHeartSettings;
 import xzeroair.trinkets.util.compat.baubles.BaubleHelper;
 
 public class BaubleGoldenHeart extends GoldenHeart implements IBauble {
+	
+	private GoldenHeartSettings config = ModConfig.SERVER.HEART;
 
 	public BaubleGoldenHeart(String name) {
 		super(name);
@@ -19,7 +23,7 @@ public class BaubleGoldenHeart extends GoldenHeart implements IBauble {
 	@Override
 	public baubles.api.BaubleType getBaubleType(ItemStack itemstack) {
 		// TODO Auto-generated method stub
-		return BaubleHelper.getBaubleType("trinket");
+		return BaubleHelper.getBaubleType(config.compat.baubles.bauble_type);
 	}
 
 	@Override

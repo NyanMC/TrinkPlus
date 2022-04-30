@@ -7,9 +7,13 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import nyanminecrafter.trinkplus.init.ModItems;
 import nyanminecrafter.trinkplus.items.DispelGel;
+import nyanminecrafter.trinkplus.util.config.ModConfig;
+import nyanminecrafter.trinkplus.util.config.ModConfig.xServer.DispelGelSettings;
 import xzeroair.trinkets.util.compat.baubles.BaubleHelper;
 
 public class BaubleDispelGel extends DispelGel implements IBauble {
+	
+	private DispelGelSettings config = ModConfig.SERVER.GEL;
 
 	public BaubleDispelGel(String name) {
 		super(name);
@@ -19,7 +23,7 @@ public class BaubleDispelGel extends DispelGel implements IBauble {
 	@Override
 	public baubles.api.BaubleType getBaubleType(ItemStack itemstack) {
 		// TODO Auto-generated method stub
-		return BaubleHelper.getBaubleType("trinket");
+		return BaubleHelper.getBaubleType(config.compat.baubles.bauble_type);
 	}
 
 	@Override

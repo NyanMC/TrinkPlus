@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "SDS",
+        "#S#"
+    ],
+    "key": {
+        "S": {
+            "item": "trinkplus:ender_powder"
+        },
+        "D": {
+            "item": "minecraft:emerald_block"
+        },
+        "#": {
+            "item": "trinkplus:ender_ingot"
+        }
+    },
+    "result": {
+        "item": "trinkplus:ender_gem"
+    }
+}

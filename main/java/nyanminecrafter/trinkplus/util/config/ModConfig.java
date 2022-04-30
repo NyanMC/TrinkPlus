@@ -2,10 +2,13 @@ package nyanminecrafter.trinkplus.util.config;
 
 import nyanminecrafter.trinkplus.Reference;
 import nyanminecrafter.trinkplus.TrinkPlus;
+import xzeroair.trinkets.util.config.trinkets.ConfigGlowRing.Compatability;
+import xzeroair.trinkets.util.config.trinkets.shared.BaubleCompat;
 import xzeroair.trinkets.util.config.trinkets.shared.ConfigAttribs;
 import net.minecraftforge.common.config.Config;
 import net.minecraftforge.common.config.Config.LangKey;
 import net.minecraftforge.common.config.Config.Name;
+import net.minecraftforge.common.config.Config.RequiresMcRestart;
 import net.minecraftforge.common.config.ConfigManager;
 import net.minecraftforge.common.config.Configuration;
 
@@ -27,6 +30,26 @@ public class ModConfig {
 			
 			public int potency = 0;
 			public int recharge = 400;
+			
+			@Name("Compatability Settings")
+			@LangKey(Reference.MODID + ".config.compatability")
+			public Compatability compat = new Compatability();
+			public class Compatability {
+				@Name("Baubles Compatability")
+				@Config.Comment({
+					"If the mod Baubles is installed what bauble slot should it use",
+					"Available Types:",
+					"Trinket, Any, All",
+					"Amulet, Necklace, Pendant",
+					"Ring, Rings",
+					"Belt",
+					"Head, Hat",
+					"Body, Chest",
+					"Charm"
+				})
+				@LangKey(Reference.MODID + ".config.baubles")
+				public BaubleCompat baubles = new BaubleCompat("trinket");
+			}
 		
 		private final boolean 	armor = false;
 		private final double 	armorAmount = 0D;
@@ -91,6 +114,26 @@ public class ModConfig {
 		public class GlassShieldSettings {
 			
 			public int cooldown = 400;
+			
+			@Name("Compatability Settings")
+			@LangKey(Reference.MODID + ".config.compatability")
+			public Compatability compat = new Compatability();
+			public class Compatability {
+				@Name("Baubles Compatability")
+				@Config.Comment({
+					"If the mod Baubles is installed what bauble slot should it use",
+					"Available Types:",
+					"Trinket, Any, All",
+					"Amulet, Necklace, Pendant",
+					"Ring, Rings",
+					"Belt",
+					"Head, Hat",
+					"Body, Chest",
+					"Charm"
+				})
+				@LangKey(Reference.MODID + ".config.baubles")
+				public BaubleCompat baubles = new BaubleCompat("body");
+			}
 		
 		private final boolean 	armor = false;
 		private final double 	armorAmount = 0D;
@@ -155,6 +198,26 @@ public class ModConfig {
 		public class DispelGelSettings {
 			
 			public float multiply = 0.25F;
+			
+			@Name("Compatability Settings")
+			@LangKey(Reference.MODID + ".config.compatability")
+			public Compatability compat = new Compatability();
+			public class Compatability {
+				@Name("Baubles Compatability")
+				@Config.Comment({
+					"If the mod Baubles is installed what bauble slot should it use",
+					"Available Types:",
+					"Trinket, Any, All",
+					"Amulet, Necklace, Pendant",
+					"Ring, Rings",
+					"Belt",
+					"Head, Hat",
+					"Body, Chest",
+					"Charm"
+				})
+				@LangKey(Reference.MODID + ".config.baubles")
+				public BaubleCompat baubles = new BaubleCompat("trinket");
+			}
 		
 		private final boolean 	armor = false;
 		private final double 	armorAmount = 0D;
@@ -212,6 +275,11 @@ public class ModConfig {
 				stepHeight,		stepHeightAmount, 	stepHeightOperation
 				);
 		}
+		
+		@RequiresMcRestart
+		@Config.Comment({"Globally toggles whether TrinkPlus trinkets can be equipped in Baubles slots or not."})
+		@Name("Baubles Compatibility")
+		public boolean baublesCompat = true;
 	}
 	
 	public static void Save() {

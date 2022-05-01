@@ -2,16 +2,20 @@ item.ender_ingot.name=Ender Ingot
 item.ender_powder.name=Ender Powder
 item.ender_gem.name=Ender Gem
 item.magic_garlic_bread.name=Magic Garlic Bread
+
 item.golden_heart.0.name=Golden Heart
 item.glass_shield.0.name=Glass Shield
 item.dispel_gel.0.name=Ward Crystal
+item.shadow_treads.0.name=Shadow Treads
 
 item.golden_heart.0.tooltip1=#gold:Grants the absorption effect
-item.golden_heart.0.tooltip2=#white:Effect regenerates when about to run out
+item.golden_heart.0.tooltip2=#gray:Effect regenerates when about to run out
 item.glass_shield.0.tooltip1=#gold:Ignores damage of one attack, then shatters
-item.glass_shield.0.tooltip2=#white:Regenerates after a cooldown period
+item.glass_shield.0.tooltip2=#gray:Regenerates after a cooldown period
 item.dispel_gel.0.tooltip1=#green:Decreases the amount of magic damage you receive
 item.dispel_gel.0.tooltip2=#red:Decreases the amount of magic damage you deal to others
+item.shadow_treads.0.tooltip1=#gold:Increases movement speed in darkness
+item.shadow_treads.0.tooltip2=#gray:(Light level 7 or less)
 
 potion.effect.xat.manaregen=Potion of Mana Regeneration
 splash_potion.effect.xat.manaregen=Splash Potion of Mana Regeneration
@@ -19,4 +23,4 @@ lingering_potion.effect.xat.manaregen=Lingering Potion of Mana Regeneration
 tipped_arrow.effect.xat.manaregen=Tipped Arrow of Mana Regeneration
 trinkplus.effect.manaregen=Mana Regen
 
-description.trinkplus.effect.manaregen=Increases the amount of Trinkets MP regenerated, but not the speed.
+description.trinkplus.effect.manaregen=Increases the amount of Trinkets MP regenerated, but not the speed which it regenerates.

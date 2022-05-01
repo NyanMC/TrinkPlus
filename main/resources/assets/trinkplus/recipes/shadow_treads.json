@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        "I I",
+        "G G"
+    ],
+    "key": {
+        "I": {
+            "item": "trinkplus:ender_ingot"
+        },
+        "G": {
+            "item": "trinkplus:ender_gem"
+        }
+    },
+    "result": {
+        "item": "trinkplus:shadow_treads"
+    }
+}

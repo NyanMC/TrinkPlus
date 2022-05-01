@@ -1,6 +1,7 @@
 package nyanminecrafter.trinkplus.items.food;
 
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.item.EnumRarity;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.PotionEffect;
@@ -31,6 +32,12 @@ public class MagicGarlicBread extends ItemFood implements IsModelLoaded {
 	@Override
 	public void registerModels() {
 		TrinkPlus.proxy.registerItemRenderer(this, 0, "inventory");
+	}
+	
+	@Override
+	public EnumRarity getRarity(ItemStack stack) {
+		// TODO Auto-generated method stub
+		return EnumRarity.RARE;
 	}
 
 }

@@ -8,7 +8,7 @@ import nyanminecrafter.trinkplus.init.ModItems;
 import nyanminecrafter.trinkplus.items.GlassShield;
 import nyanminecrafter.trinkplus.util.config.ModConfig;
 import nyanminecrafter.trinkplus.util.config.ModConfig.xServer.GlassShieldSettings;
-import xzeroair.trinkets.util.compat.baubles.BaubleHelper;
+import xzeroair.trinkets.util.compat.baubles.BaublesHelper;
 
 public class BaubleGlassShield extends GlassShield implements IBauble {
 	
@@ -21,14 +21,13 @@ public class BaubleGlassShield extends GlassShield implements IBauble {
 
 	@Override
 	public baubles.api.BaubleType getBaubleType(ItemStack itemstack) {
-		// TODO Auto-generated method stub
-		return BaubleHelper.getBaubleType(config.compat.baubles.bauble_type);
+		return BaublesHelper.getBaubleType(config.compat.baubles.bauble_type);
 	}
 
 	@Override
 	public boolean canEquip(ItemStack itemstack, EntityLivingBase player) {
 		if (player instanceof EntityPlayer) {
-			return super.playerCanEquip(itemstack, player);
+			return super.canEquipAccessory(itemstack, player);
 		}
 		return true;
 	}
@@ -36,7 +35,7 @@ public class BaubleGlassShield extends GlassShield implements IBauble {
 	@Override
 	public boolean canUnequip(ItemStack itemstack, EntityLivingBase player) {
 		if (player instanceof EntityPlayer) {
-			return super.playerCanUnequip(itemstack, player);
+			return super.canUnequipAccessory(itemstack, player);
 		}
 		return true;
 	}
@@ -44,14 +43,14 @@ public class BaubleGlassShield extends GlassShield implements IBauble {
 	@Override
 	public void onEquipped(ItemStack stack, EntityLivingBase player) {
 		if (player instanceof EntityPlayer) {
-			super.playerEquipped(stack, player);
+			super.onAccessoryEquipped(stack, player);
 		}
 	}
 
 	@Override
 	public void onUnequipped(ItemStack stack, EntityLivingBase player) {
 		if (player instanceof EntityPlayer) {
-			super.playerUnequipped(stack, player);
+			super.onAccessoryUnequipped(stack, player);
 		}
 	}
 }

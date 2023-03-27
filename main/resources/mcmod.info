@@ -5,11 +5,11 @@
   "description": "A few additions to Trinkets and Baubles which XzeroAir denied me from putting in the base mod.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://www.curseforge.com/minecraft/mc-mods/trinkplus",
   "updateUrl": "",
   "authorList": ["NyanMinecrafter"],
-  "credits": "XzeroAir (helped me through everything no matter how ridiculous); NPC_NAME/Z-Tunic (updated many of my placeholder textures); u/absolutely_aroace on reddit (magic garlic bread texture)",
-  "logoFile": "",
+  "credits": "XzeroAir; NPC_NAME/Z-Tunic; TwilightStar; DarkArtsy; u/absolutely_aroace on reddit (see mod page for more detailed credits)",
+  "logoFile": "assets/trinkplus/logo/logo.png",
   "screenshots": [],
   "dependencies": []
 }

@@ -1,0 +1,20 @@
+{
+    "name": "Celestial Charm",
+    "icon": "trinkplus:super_shadow_treads",
+    "category": "trinkets",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Celestial Charm is a $(d)Super Trinket$() which inherits the abilities of its base form, as well as increased attack damage when in light levels above 7."
+        },
+		{
+            "type": "text",
+            "text": "$(l)Default Attribute modifiers:$()$(br)$(2)+20%$() Attack Damage (In Light)"
+        },
+		{
+            "type": "crafting",
+            "text": "$(o)I'll make you eat those words!",
+			"recipe": "trinkplus:super_shadow_treads"
+        }
+    ]
+}

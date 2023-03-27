@@ -1,0 +1,17 @@
+{
+    "name": "TrinkPlus Mana Items",
+    "icon": "trinkplus:magic_garlic_bread",
+    "category": "mana",
+    "pages": [
+        {
+            "type": "spotlight",
+			"item": "trinkplus:magic_garlic_bread",
+            "text": "Magic Garlic Bread is found in End Cities, and grants $(1)Mana Regen II$() on consumption. If the player is wearing the Duality Rings, they will also receive $(4)Health Boost III$() and $(6)Saturation I$()."
+        },
+		{
+            "type": "crafting",
+			"recipe": "trinkplus:ender_candy",
+			"text": "Overloaded Candies restore twice the mana that Mana Candies do, but also harm any race with a magic affinity of 250 or less."
+		}
+    ]
+}

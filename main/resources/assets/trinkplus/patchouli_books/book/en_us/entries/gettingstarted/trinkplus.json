@@ -1,0 +1,11 @@
+{
+    "name": "TrinkPlus",
+    "icon": "trinkplus:textures/gui/patchouli_textures/trinkplus_logo.png",
+    "category": "gettingstarted",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Thank you for installing TrinkPlus! This is an addon to Trinkets and Baubles which adds more trinkets, more items, and even one race. The guide book should have new entries in each category for the TrinkPlus items."
+        }
+    ]
+}

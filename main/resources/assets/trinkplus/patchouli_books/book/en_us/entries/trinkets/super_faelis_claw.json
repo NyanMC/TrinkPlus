@@ -1,0 +1,16 @@
+{
+    "name": "Vicious Claw",
+    "icon": "trinkplus:super_faelis_claw",
+    "category": "trinkets",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Vicious Claw is a $(d)Super Trinket$() which inherits the abilities of its base form, as well as a 1.5x increase to the player's pseudo-melee damage. However, in exchange, the player takes 1.25x damage from ALL sources.$(br)Pseudo-melee damage is any damage which is not fire damage, magic damage, explosions, or projectiles."
+        },
+		{
+            "type": "crafting",
+            "text": "$(o)owo uwu owo",
+			"recipe": "trinkplus:super_faelis_claw"
+        }
+    ]
+}

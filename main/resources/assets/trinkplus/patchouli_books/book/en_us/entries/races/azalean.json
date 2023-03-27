@@ -1,0 +1,24 @@
+{
+    "name": "Azalean",
+    "icon": "trinkplus:azalean_ring",
+    "category": "races",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Azalean race is a small plantlike race which has plantlike abilities."
+        },
+		{
+            "type": "text",
+            "text": "$(l)Default Attribute modifiers:$()$(br)50% Size$(br)$(2)+20%$() Max Health$(br)$(4)-25%$() Attack Damage$(br)$(4)-25%$() Armor$(br)$(2)+1$() Luck$(br2)$(l)When near plants:$()$(br)$(2)+25%$() Attack Damage$(br)$(2)+25%$() Armor$(br)$(2)+25%$() Movement Speed"
+        },
+		{
+            "type": "text",
+            "text": "$(l)Ability: Photosynthesis$()$(br)Being in sunlight causes the azalean to slowly regenerate health."
+        },
+		{
+            "type": "crafting",
+			"recipe": "trinkplus:azalean_flower",
+			"recipe2": "trinkplus:azalean_ring"
+        }
+    ]
+}

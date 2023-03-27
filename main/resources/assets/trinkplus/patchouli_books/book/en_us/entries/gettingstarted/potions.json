@@ -1,0 +1,19 @@
+{
+    "name": "TrinkPlus Potions",
+    "icon": "minecraft:potion",
+    "category": "gettingstarted",
+    "pages": [
+		{
+            "type": "spotlight",
+			"item": "minecraft:potion{Potion:'trinkplus:manaregen'}",
+			"title": "Mana Regeneration",
+            "text": "Increases the amount of mana regenerated naturally."
+        },
+		{
+            "type": "spotlight",
+			"item": "minecraft:potion{Potion:'trinkplus:manableed'}",
+			"title": "Mana Bleed",
+            "text": "Causes the player to rapidly lose mana, at a rate of (0.2 * (amplifier + 1)) mana per tick, assuming amplifier starts at zero."
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "name": "Crafting Materials",
+    "icon": "trinkplus:ender_gem",
+    "category": "gettingstarted",
+    "pages": [
+        {
+            "type": "text",
+            "text": "TrinkPlus comes with a new set of materials called Ender Materials. Similar to the Glowing Materials, these items are used in several recipes."
+        },
+		{
+            "type": "crafting",
+            "text": "Crafting the Ender Powder",
+			"recipe": "trinkplus:ender_powder"
+        },
+		{
+            "type": "crafting",
+            "text": "Crafting the Ender Ingot$(br)If Nyx is installed, Fallen Stars can be used in place of Eyes of Ender",
+			"recipe": "trinkplus:ender_ingot"
+        },
+		{
+            "type": "crafting",
+            "text": "Crafting the Ender Gem",
+			"recipe": "trinkplus:ender_gem"
+        },
+        {
+            "type": "text",
+            "text": "There are also miscellaneous materials which may be important depending on the recipe you are trying to craft."
+        },
+		{
+            "type": "crafting",
+            "text": "The Chroma Shard is used to make the Lunar Crystal and Ascension Essence.",
+			"recipe": "trinkplus:chroma_shard"
+        },
+		{
+            "type": "crafting",
+            "text": "Ascension Essence is used to craft super trinkets.",
+			"recipe": "trinkplus:ascension_essence"
+        },
+		{
+            "type": "spotlight",
+            "text": "Spicy Coal is used to create Solarborn related transformation items. It can also be used as a potent fuel, smelting one stack.",
+			"item": "trinkplus:spicy_coal"
+        }
+    ]
+}

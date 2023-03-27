@@ -1,0 +1,16 @@
+{
+    "name": "Friendly Fire Flower",
+    "icon": "trinkplus:friendly_fire_flower",
+    "category": "trinkets",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Friendly Fire Flower redirects damage you deal to yourself to your mana reserves before harming you, at a default cost of 5 mana per 1 damage. If you are a Solarborn, mana bleed lasts half as long with this equipped. This item also partially protects against fire damage.$(br2)Item idea originally by Z-Tunic"
+        },
+		{
+            "type": "crafting",
+            "text": "$(o)Any similarities to other games are purely coincidental.",
+			"recipe": "trinkplus:friendly_fire_flower"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Blåhaj",
+    "icon": "trinkplus:super_teddy_bear",
+    "category": "trinkets",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Blåhaj is a $(d)Super Trinket$() which inherits the abilities of its base form, as well as restoring the wearer's health and mana after sleeping. It can be placed, much like the Teddy Bear, and additionally can be worn in the helmet slot if desired. It is the only super trinket to not require Essense of Ascension to craft."
+        },
+		{
+            "type": "crafting",
+            "text": "$(o)ikea shark",
+			"recipe": "trinkplus:super_teddy_bear"
+        }
+    ]
+}

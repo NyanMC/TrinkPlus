@@ -1,0 +1,20 @@
+{
+    "name": "Harpy Feather",
+    "icon": "trinkplus:harpy_feather",
+    "category": "trinkets",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Harpy Feather allows its wearer to fly in a way similar to the Stone of the Sea's enhanced swimming. This comes at the cost of making flying straight very difficult and precise. The feather does $(bold)not$() grant flight on its own, the player must be a fairy or dragon (or gain flight through other means) to use this effect.$(br2)Item idea originally by Z-Tunic"
+        },
+        {
+            "type": "text",
+            "text": "This item has an additional ability when held in either hand. When right clicking, the holder will be able to jump a second time. This can be used to soften falls, and even works on mounts (though, not very useful on them)."
+        },
+		{
+            "type": "crafting",
+            "text": "$(o)HOVER!",
+			"recipe": "trinkplus:harpy_feather"
+        }
+    ]
+}

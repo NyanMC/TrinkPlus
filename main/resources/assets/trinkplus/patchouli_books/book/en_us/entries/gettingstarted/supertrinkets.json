@@ -1,0 +1,11 @@
+{
+    "name": "Super Trinkets",
+    "icon": "trinkplus:super_faelis_claw",
+    "category": "gettingstarted",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(d)Super Trinkets$() are a new feature added by TrinkPlus which upgrade existing trinkets into more powerful variants with stronger abilities. You can only have one super trinket equipped at a time, and attempting to equip a super trinket alongside its regular counterpart may have consequences."
+        }
+    ]
+}

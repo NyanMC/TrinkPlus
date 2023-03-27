@@ -1,0 +1,20 @@
+{
+    "name": "Golden Heart",
+    "icon": "trinkplus:golden_heart",
+    "category": "trinkets",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Golden Heart grants the player the Absorption effect. When the effect is about to run out, it is applied again, resetting the amount of remaining absorption hearts."
+        },
+		{
+            "type": "text",
+            "text": "$(l)Default Attribute modifiers:$()$(br)$(2)+4$() Max Health"
+        },
+		{
+            "type": "crafting",
+            "text": "$(o)Don't tell pigmen about it.",
+			"recipe": "trinkplus:golden_heart"
+        }
+    ]
+}

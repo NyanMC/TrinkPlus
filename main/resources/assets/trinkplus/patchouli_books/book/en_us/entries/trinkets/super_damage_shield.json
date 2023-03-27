@@ -1,0 +1,16 @@
+{
+    "name": "Shield of Wrath",
+    "icon": "trinkplus:super_damage_shield",
+    "category": "trinkets",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Shield of Wrath is a $(d)Super Trinket$() which inherits the abilities of its base form, as well as the ability to redirect damage the wearer would have taken back to the attacker (if applicable) upon blocking damage."
+        },
+		{
+            "type": "crafting",
+            "text": "$(o)Disclaimer: Does not allow you to take 25% of other players' damage.",
+			"recipe": "trinkplus:super_damage_shield"
+        }
+    ]
+}

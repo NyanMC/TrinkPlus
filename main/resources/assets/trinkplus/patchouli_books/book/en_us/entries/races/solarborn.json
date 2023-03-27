@@ -1,0 +1,24 @@
+{
+    "name": "Solarborn",
+    "icon": "trinkplus:solarborn_ring",
+    "category": "races",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Solarborn race is a fiery race in which their stats are controlled by the amount of mana in their mana pool."
+        },
+		{
+            "type": "text",
+            "text": "$(l)Default Attribute modifiers:$()$(br)25-150% Size$(br)$(4)-50%$()-$(2)+50%$() Attack Damage$(br)$(4)-100%$()-$(2)+25%$() Armor$(br)$(2)+20%$()-$(4)-20%$() Movement Speed$(br)$(2)+1$() Mana Regen"
+        },
+		{
+            "type": "text",
+            "text": "$(l)Ability: Fire Breath$()$(br)Holding the Race Ability key causes the Solarborn to shoot flames from their body. These flames ignite whatever they strike, however maintaining the fire breath costs huge amounts of mana. Be careful not to exhaust your entire mana pool on accident! The color of these flames is the same as the color of the player's racial trait."
+        },
+		{
+            "type": "crafting",
+			"recipe": "trinkplus:solarborn_stone",
+			"recipe2": "trinkplus:solarborn_ring"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Glass Shield",
+    "icon": "trinkplus:glass_shield",
+    "category": "trinkets",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Glass Shield fully protects against a single attack, and then shatters. It regenerates after a cooldown period."
+        },
+		{
+            "type": "crafting",
+            "text": "$(o)A Fairy's best friend.",
+			"recipe": "trinkplus:glass_shield"
+        }
+    ]
+}

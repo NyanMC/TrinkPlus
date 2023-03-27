@@ -1,0 +1,16 @@
+{
+    "name": "Dispelling Crystal",
+    "icon": "trinkplus:super_dispel_gel",
+    "category": "trinkets",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Dispelling Crystal is a $(d)Super Trinket$() which inherits the abilities of its base form, as well as nullifying all potion effects, both beneficial and harmful."
+        },
+		{
+            "type": "crafting",
+            "text": "$(o)Not safe for human consumption.",
+			"recipe": "trinkplus:super_dispel_gel"
+        }
+    ]
+}

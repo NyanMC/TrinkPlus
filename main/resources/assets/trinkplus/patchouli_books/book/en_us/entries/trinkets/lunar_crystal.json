@@ -1,0 +1,16 @@
+{
+    "name": "Lunar Crystal",
+    "icon": "trinkplus:lunar_crystal",
+    "category": "trinkets",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Lunar Crystal makes its wearer immune to Levitation and anything classified as falling damage. By default, hitting a mob has a 5% chance to inflict Levitation III to the target for 2 seconds."
+        },
+		{
+            "type": "crafting",
+            "text": "$(o)I've come to make an announcement.",
+			"recipe": "trinkplus:lunar_crystal"
+        }
+    ]
+}

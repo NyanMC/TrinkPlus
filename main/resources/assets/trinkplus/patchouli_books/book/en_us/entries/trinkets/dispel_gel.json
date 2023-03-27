@@ -1,0 +1,20 @@
+{
+    "name": "Ward Crystal",
+    "icon": "trinkplus:dispel_gel",
+    "category": "trinkets",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Ward Crystal protects you from magic damage, but also reduces the magic damage you deal."
+        },
+		{
+            "type": "text",
+            "text": "$(l)Default Attribute modifiers:$()$(br)$(2)+75%$() Magic Damage Reduction$(br)$(4)-75%$() Magic Damage$(br)"
+        },
+		{
+            "type": "crafting",
+            "text": "$(o)Not safe for human consumption.",
+			"recipe": "trinkplus:dispel_gel"
+        }
+    ]
+}

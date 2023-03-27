@@ -1,0 +1,20 @@
+{
+    "name": "Shadow Treads",
+    "icon": "trinkplus:shadow_treads",
+    "category": "trinkets",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Shadow Treads grant immunity to Slowness and increase your movement speed when in a light level in which monsters can spawn (7 or less)."
+        },
+		{
+            "type": "text",
+            "text": "$(l)Default Attribute modifiers:$()$(br)$(2)+20%$() Movement Speed (In Darkness)"
+        },
+		{
+            "type": "crafting",
+            "text": "$(o)I found you, faker!",
+			"recipe": "trinkplus:shadow_treads"
+        }
+    ]
+}

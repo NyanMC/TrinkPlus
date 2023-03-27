@@ -24,8 +24,8 @@ compileJava {
 ext.configFile = file('build.properties')
 ext.config = parseConfig(configFile)
 
-version = "${config.version}.${config.build_number}"
-group = "xzeroair.xat" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+version = "${config.version}"
+group = "nyanminecrafter.trinkplus" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = config.mod_name
 
 task wrapper(type: Wrapper) {
@@ -57,6 +57,9 @@ jar {
 dependencies {
 	
 	compile fileTree(dir: 'lib', include: '*.jar')
+	compile project(':Forge 1.12.2-14.23.5.2854')
+	compile project(':Trinkets and Baubles')
+	compile project(':Baubles API')
 	
 }
 

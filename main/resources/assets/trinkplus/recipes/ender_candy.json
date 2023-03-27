@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " I ",
+        "ICI",
+        " I "
+    ],
+    "key": {
+        "I": {
+            "item": "trinkplus:ender_powder"
+        },
+        "C": {
+            "item": "xat:mana_candy"
+        }
+    },
+    "result": {
+        "item": "trinkplus:ender_candy"
+    }
+}

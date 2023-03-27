@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "SFS",
+        "#S#"
+    ],
+    "key": {
+        "S": {
+            "item": "xat:glowing_ingot"
+        },
+        "F": {
+            "item": "minecraft:red_flower",
+            "data": 32767
+        },
+        "#": {
+            "item": "minecraft:spectral_arrow"
+        }
+    },
+    "result": {
+        "item": "trinkplus:friendly_fire_flower"
+    }
+}

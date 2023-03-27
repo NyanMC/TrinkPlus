@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ISI",
+        "I#I",
+        "ISI"
+    ],
+    "key": {
+        "I": {
+            "item": "trinkplus:ender_ingot"
+        },
+		"#": {
+            "item": "xat:weightless_stone"
+        },
+		"S": {
+            "item": "trinkplus:chroma_shard"
+        }
+    },
+    "result": {
+        "item": "trinkplus:lunar_crystal"
+    }
+}

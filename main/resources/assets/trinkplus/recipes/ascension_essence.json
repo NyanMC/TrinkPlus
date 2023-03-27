@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " C ",
+        "C#C",
+        " C "
+    ],
+    "key": {
+        "C": {
+            "item": "trinkplus:chroma_shard"
+        },
+		"#": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "item": "trinkplus:ascension_essence"
+    }
+}

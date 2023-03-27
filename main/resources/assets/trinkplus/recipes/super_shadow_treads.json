@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "GSG",
+        "L#L",
+        "LLL"
+    ],
+    "key": {
+        "S": {
+            "item": "trinkplus:ascension_essence"
+        },
+        "G": {
+            "item": "trinkplus:spicy_coal"
+        },
+		"#": {
+            "item": "trinkplus:shadow_treads"
+        },
+		"L": {
+            "item": "minecraft:magma_cream"
+        }
+    },
+    "result": {
+        "item": "trinkplus:super_shadow_treads"
+    }
+}

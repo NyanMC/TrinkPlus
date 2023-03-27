@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "GSG",
+        "L#L",
+        "GLG"
+    ],
+    "key": {
+        "S": {
+            "item": "trinkplus:ascension_essence"
+        },
+        "G": {
+            "item": "trinkplus:ender_gem"
+        },
+		"#": {
+            "item": "trinkplus:dispel_gel"
+        },
+		"L": {
+            "item": "xat:mana_reagent"
+        }
+    },
+    "result": {
+        "item": "trinkplus:super_dispel_gel"
+    }
+}

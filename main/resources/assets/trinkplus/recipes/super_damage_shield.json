@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "GSG",
+        "L#L",
+        " L "
+    ],
+    "key": {
+        "S": {
+            "item": "trinkplus:ascension_essence"
+        },
+        "G": {
+            "item": "trinkplus:ender_gem"
+        },
+		"#": {
+            "item": "xat:damage_shield"
+        },
+		"L": {
+            "item": "minecraft:iron_block"
+        }
+    },
+    "result": {
+        "item": "trinkplus:super_damage_shield"
+    }
+}

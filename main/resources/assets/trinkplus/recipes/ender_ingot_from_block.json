@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "trinkplus:ender_ingot_block"
+        }
+    },
+    "result": {
+        "item": "trinkplus:ender_ingot",
+        "count": 9
+    }
+}

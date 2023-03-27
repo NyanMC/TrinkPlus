@@ -1,0 +1,8 @@
+{
+    "conditions": {
+        "nyx_enabled": "nyanminecrafter.trinkplus.util.compat.nyx.crafting.conditions.NyxRecipeConditions"
+	},
+	"ingredients":{
+		"conditional": "nyanminecrafter.trinkplus.util.recipes.ConditionalIngredientFactory"
+	}
+}

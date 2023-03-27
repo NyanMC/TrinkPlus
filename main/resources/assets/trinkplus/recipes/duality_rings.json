@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "AGA",
+        "G#I",
+        "AIA"
+    ],
+    "key": {
+        "I": {
+            "item": "trinkplus:ender_gem"
+        },
+        "G": {
+            "item": "xat:glowing_gem"
+        },
+		"A": {
+            "item": "minecraft:arrow"
+        },
+		"#": {
+            "item": "trinkplus:magic_garlic_bread"
+        }
+    },
+    "result": {
+        "item": "trinkplus:duality_rings"
+    }
+}

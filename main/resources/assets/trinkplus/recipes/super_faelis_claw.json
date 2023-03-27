@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "GSG",
+        "L#L",
+        "LLL"
+    ],
+    "key": {
+        "S": {
+            "item": "trinkplus:ascension_essence"
+        },
+        "G": {
+            "item": "trinkplus:ender_gem"
+        },
+		"#": {
+            "item": "xat:faelis_claw"
+        },
+		"L": {
+            "item": "minecraft:leather"
+        }
+    },
+    "result": {
+        "item": "trinkplus:super_faelis_claw"
+    }
+}

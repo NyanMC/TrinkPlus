@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+		"particle": "trinkplus:blocks/glowing_ingot_block_northsouth",
+		"down": "trinkplus:blocks/glowing_ingot_block_bottom",
+		"up": "trinkplus:blocks/glowing_ingot_block_top",
+		"north": "trinkplus:blocks/glowing_ingot_block_northsouth",
+		"east": "trinkplus:blocks/glowing_ingot_block_northsouth",
+		"south": "trinkplus:blocks/glowing_ingot_block_northsouth",
+		"west": "trinkplus:blocks/glowing_ingot_block_northsouth"
+    }
+}

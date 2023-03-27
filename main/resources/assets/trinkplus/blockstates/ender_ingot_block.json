@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "trinkplus:ender_ingot_block" }
+    }
+}

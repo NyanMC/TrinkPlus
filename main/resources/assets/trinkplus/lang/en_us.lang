@@ -1,26 +1,191 @@
-item.ender_ingot.name=Ender Ingot
+// crafting materials
+
 item.ender_powder.name=Ender Powder
-item.ender_gem.name=Ender Gem
+item.ender_powder.tooltip1=Tier 2 Crafting Material
+item.ender_ingot.name=§dEnder Ingot
+item.ender_ingot.tooltip1=§dTier 3 Crafting Material
+item.ender_gem.name=§5Ender Gem
+item.ender_gem.tooltip1=§5Tier 4 Crafting Material
+
+item.chroma_shard.name=§4C§6h§er§ao§3m§5a §rShard
+item.chroma_shard.tooltip1=§4Tie§6r 5 C§eraf§atin§bg Ma§3ter§5ial
+item.ascension_essence.name=§4Ess§6enc§ee of §aAsc§3ens§5ion
+item.ascension_essence.tooltip1=§4Tie§6r 6 C§eraf§atin§bg Ma§3ter§5ial
+
+item.spicy_coal.name=§6Spicy Coal
+item.spicy_coal.tooltip1=§6Tier 2 Crafting Material
+
+// misc items and blocks
+
+tile.glowing_ingot_block.name=Block of Glowing Ingots
+tile.ender_ingot_block.name=Block of Ender Ingots
+
 item.magic_garlic_bread.name=Magic Garlic Bread
+item.ender_candy.name=§dOverloaded Candy
+item.ender_candy.tooltip1=§cToxic to non-magical races
+
+// trinket names
 
 item.golden_heart.0.name=Golden Heart
 item.glass_shield.0.name=Glass Shield
 item.dispel_gel.0.name=Ward Crystal
 item.shadow_treads.0.name=Shadow Treads
+item.duality_rings.0.name=Duality Rings
+item.friendly_fire_flower.0.name=Friendly Fire Flower
+item.lunar_crystal.0.name=Lunar Crystal
+item.harpy_feather.0.name=Harpy Feather
 
-item.golden_heart.0.tooltip1=#gold:Grants the absorption effect
-item.golden_heart.0.tooltip2=#gray:Effect regenerates when about to run out
-item.glass_shield.0.tooltip1=#gold:Ignores damage of one attack, then shatters
-item.glass_shield.0.tooltip2=#gray:Regenerates after a cooldown period
-item.dispel_gel.0.tooltip1=#green:Decreases the amount of magic damage you receive
-item.dispel_gel.0.tooltip2=#red:Decreases the amount of magic damage you deal to others
-item.shadow_treads.0.tooltip1=#gold:Increases movement speed in darkness
-item.shadow_treads.0.tooltip2=#gray:(Light level 7 or less)
+// super trinket names
 
-potion.effect.xat.manaregen=Potion of Mana Regeneration
-splash_potion.effect.xat.manaregen=Splash Potion of Mana Regeneration
-lingering_potion.effect.xat.manaregen=Lingering Potion of Mana Regeneration
-tipped_arrow.effect.xat.manaregen=Tipped Arrow of Mana Regeneration
+item.super_faelis_claw.0.name=Vicious Claw
+item.super_damage_shield.0.name=Shield of Wrath
+item.super_dispel_gel.0.name=Dispelling Crystal
+item.super_teddy_bear.0.name=Blåhaj
+item.super_shadow_treads.0.name=Celestial Charm
+
+// trinket descriptions
+
+item.golden_heart.0.tooltip1=§6Grants the absorption effect at level §3$potency:
+item.golden_heart.0.tooltip2=§6Effect is reapplied every §3$recharge: §6ticks
+
+item.glass_shield.0.tooltip1=§6Ignores damage of one attack, then shatters
+item.glass_shield.0.tooltip2=§6Regenerates after §3$cooldown: §6ticks
+
+item.dispel_gel.0.tooltip1=§aReduces magic damage you receive by §3$multiply_incoming:
+item.dispel_gel.0.tooltip2=§cReduces magic damage you deal by §3$multiply_outgoing:
+
+item.shadow_treads.0.tooltip1=§6Immunity to Slowness
+item.shadow_treads.0.tooltip2=§6Increases movement speed by §3$darkspeed: §6in darkness
+item.shadow_treads.0.tooltip3=§7(Light level 7 or less)
+
+item.duality_rings.0.tooltip1=§5Magic Garlic Bread grants additional potion effects
+// to any potential translators, i'm so sorry for the line below this one
+item.duality_rings.0.tooltip2=§2@all:@arrow: §2deal §3$amplifier:§2 increased damage
+item.duality_rings.0.arrow=Arrows
+item.duality_rings.0.all=All projectiles
+
+item.friendly_fire_flower.0.tooltip1=§6Damage you deal to yourself depletes your mana reserves first
+item.friendly_fire_flower.0.tooltip2=§6It costs §3$cost: §6@perhit:@perdamage:
+item.friendly_fire_flower.0.tooltip3=§6Reduces fire damage by §3$reduction:
+item.friendly_fire_flower.0.tooltip4=§6Reduces mana loss by half when a Solarborn takes damage
+item.friendly_fire_flower.0.perhit=to block a single hit
+item.friendly_fire_flower.0.perdamage=for every point of damage blocked
+
+item.lunar_crystal.0.tooltip1=§6Immunity to Levitation
+item.lunar_crystal.0.tooltip2=@fall:
+item.lunar_crystal.0.tooltip3=§3$chance:§2 chance to inflict Levitation at level §3$amplifier:§2 for §3$duration:§2 ticks
+item.lunar_crystal.0.fall=§6Immunity to Fall Damage
+
+item.harpy_feather.0.tooltip1=§6Creative flight acts like swimming with a Stone of the Sea
+item.harpy_feather.0.tooltip2=Allows for a second jump on right click when held in either hand
+
+// super trinket descriptions
+
+item.super_faelis_claw.0.tooltip1=§dSuper Trinket§r: §6Inherits the abilities of the Faelis Claw
+item.super_faelis_claw.0.tooltip2=§aYou deal §3$outgoing: §aincreased @pml:@all:
+item.super_faelis_claw.0.tooltip3=§cYou take §3$incoming: §cincreased damage from all sources
+item.super_faelis_claw.0.all=damage from all sources
+item.super_faelis_claw.0.pml=pseudo-melee damage
+
+item.super_damage_shield.0.tooltip1=§dSuper Trinket§r: §6Inherits the abilities of the Shield of Honor
+item.super_damage_shield.0.tooltip2=§6Blocking a hit redirects the damage back to the attacker
+
+item.super_dispel_gel.0.tooltip1=§dSuper Trinket§r: §6Inherits the abilities of the Ward Crystal
+item.super_dispel_gel.0.tooltip2=§6All potion effects, both beneficial and harmful, are nullified
+
+item.super_teddy_bear.0.tooltip1=§dSuper Trinket§r: §6Inherits the abilities of the Teddy Bear
+item.super_teddy_bear.0.tooltip2=§6Restores health and mana after sleeping
+
+item.super_shadow_treads.0.tooltip1=§dSuper Trinket§r: §6Inherits the abilities of the Shadow Treads
+item.super_shadow_treads.0.tooltip2=§6Immunity to Weakness
+item.super_shadow_treads.0.tooltip3=§6Increases attack damage by §3$lightpower: §6in light
+item.super_shadow_treads.0.tooltip4=§7(Light level 8 or more)
+
+// potions
+
+potion.effect.trinkplus.manaregen=Potion of Mana Regeneration
+splash_potion.effect.trinkplus.manaregen=Splash Potion of Mana Regeneration
+lingering_potion.effect.trinkplus.manaregen=Lingering Potion of Mana Regeneration
+tipped_arrow.effect.trinkplus.manaregen=Arrow of Mana Regeneration
 trinkplus.effect.manaregen=Mana Regen
-
 description.trinkplus.effect.manaregen=Increases the amount of Trinkets MP regenerated, but not the speed which it regenerates.
+
+potion.effect.trinkplus.manaboost=Potion of Magic Affinity
+splash_potion.effect.trinkplus.manaboost=Splash Potion of Magic Affinity
+lingering_potion.effect.trinkplus.manaboost=Lingering Potion of Magic Affinity
+tipped_arrow.effect.trinkplus.manaboost=Arrow of Magic Affinity
+trinkplus.effect.manaboost=Mana Boost
+description.trinkplus.effect.manaboost=Increases the player's maximum mana.
+
+potion.effect.trinkplus.manableed=Potion of Bleeding Mana
+splash_potion.effect.trinkplus.manableed=Splash Potion of Bleeding Mana
+lingering_potion.effect.trinkplus.manableed=Lingering Potion of Bleeding Mana
+tipped_arrow.effect.trinkplus.manableed=Arrow of Bleeding Mana
+trinkplus.effect.manableed=Mana Bleed
+description.trinkplus.effect.manableed=Causes the player to lose mana rapidly.
+
+potion.effect.trinkplus.solarborn=Potion of Solarborn Transformation
+splash_potion.effect.trinkplus.solarborn=Splash Potion of Solarborn Transformation
+lingering_potion.effect.trinkplus.solarborn=Lingering Potion of Solarborn Transformation
+tipped_arrow.effect.trinkplus.solarborn=Arrow of Solarborn Transformation
+trinkplus.effect.solarborn=Solarborn
+
+potion.effect.trinkplus.azalean=Potion of Azalean Transformation
+splash_potion.effect.trinkplus.azalean=Splash Potion of Azalean Transformation
+lingering_potion.effect.trinkplus.azalean=Lingering Potion of Azalean Transformation
+tipped_arrow.effect.trinkplus.azalean=Arrow of Azalean Transformation
+trinkplus.effect.azalean=Azalean
+
+// race related
+
+item.solarborn_stone.name=Solarborn Stone
+item.solarborn_stone.tooltip1=§bI might be able to remove the effects
+item.solarborn_stone.tooltip2=§bby drinking some sort of potion
+item.solarborn_stone.tooltip3=<§9Use a Restoration Serum to undo§r>
+
+item.solarborn_ring.0.name=§6Ring of the Solarborn
+item.solarborn_ring.0.tooltip1=§6Entity size, speed, damage, and armor vary based on maximum mana
+item.solarborn_ring.0.tooltip2=§6Same Fire-Breathing abilities as the Dragon Race
+item.solarborn_ring.0.tooltip3=§6Grants Fire Resistance
+item.solarborn_ring.0.tooltip4=§cTaking damage causes mana loss
+
+item.azalean_flower.name=Azalean Flower
+item.azalean_flower.tooltip1=§bI might be able to remove the effects
+item.azalean_flower.tooltip2=§bby drinking some sort of potion
+item.azalean_flower.tooltip3=<§9Use a Restoration Serum to undo§r>
+
+item.azalean_ring.0.name=§6Ring of the Azaleans
+item.azalean_ring.0.tooltip1=§6Entity size half of normal
+item.azalean_ring.0.tooltip2=§6Regeneration while in direct sunlight
+item.azalean_ring.0.tooltip3=§6Gain damage, speed, and armor buffs when near flowers and on the same Y level as them
+
+// abilities
+
+ability.absorption.name=§eAbsorption
+ability.ace_of_spades.name=§5Ace of Spades
+ability.anti_magic.name=§dAnti-Magic
+ability.aro_of_clubs.name=§2Aro of Clubs
+ability.deadly_strike.name=§4Deadly Strike
+ability.exquisitely_rested.name=§dExquisitely Rested
+ability.friendly_firing.name=§6Friendly Firing
+ability.levitation_affinity.name=§bLevitation Affinity
+ability.magic_glass.name=Magic Glass
+ability.photosynthesis.name=§aPhotosynthesis
+ability.potion_warding.name=§dPotion Warding
+ability.return_to_sender.name=§4Return to Sender
+ability.shadow_step.name=§7Shadow Step
+ability.shining_smash.name=§6Shining Smash
+ability.sky_swim.name=§bSky Swimming
+ability.water_damage.name=§cWater Damage
+
+// other
+
+itemGroup.trinkplustab=TrinkPlus
+
+damagetype.trinkplus.overload=overload
+death.attack.trinkplus.overload=%1$s received more than the daily recommended amount of mana supplements
+death.attack.trinkplus.overload.player=%1$s overdosed on mana whilst fighting %2$s
+
+damagetype.trinkplus.water=water
+death.attack.trinkplus.water=%1$s went out in a puff of smoke
+death.attack.trinkplus.water.player=%1$s was extinguished whilst trying to escape %2$s

@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "normal": { "model": "trinkplus:super_teddy_bear"},
+        "facing=north": {"model": "trinkplus:super_teddy_bear"},
+        "facing=south": {"model": "trinkplus:super_teddy_bear", "y": 180},
+        "facing=west": {"model": "trinkplus:super_teddy_bear", "y": 270},
+        "facing=east": {"model": "trinkplus:super_teddy_bear", "y": 90}
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#I#",
+        "IDI",
+        "#I#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:chorus_fruit_popped"
+        },
+        "I": [
+			{
+				"item": "minecraft:ender_eye"
+			},
+			{
+				"type": "trinkplus:conditional",
+				"conditions": [
+					{
+						"type": "forge:mod_loaded",
+						"modid": "nyx"
+					}
+				],
+				"ingredient": {
+					"item": "nyx:fallen_star"
+				}
+			}
+        ],
+        "D": {
+            "item": "xat:glowing_ingot"
+        }
+    },
+    "result": {
+        "item": "trinkplus:ender_ingot"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "IGI",
+        "G#G",
+        "IGI"
+    ],
+    "key": {
+        "I": {
+            "item": "trinkplus:ender_ingot"
+        },
+        "G": {
+            "item": "trinkplus:ender_gem"
+        },
+		"#": {
+            "item": "minecraft:diamond_block"
+        }
+    },
+    "result": {
+        "item": "trinkplus:chroma_shard"
+    }
+}
